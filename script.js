@@ -1,7 +1,7 @@
 
 
 $(document).ready(function() {
-    $('#loginForm').on('submit', function(event) {
+    $('#loginForm').on('load', function(event) {
         event.preventDefault(); // Prevent page reload
         
         var formData = {
